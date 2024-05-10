@@ -38,7 +38,21 @@ a {
     text-decoration: none;
 }
 
+p a {
+    color: rgb(41, 134, 88);
+}
+
 a:hover { 
     text-decoration: underline;
     color:brown;
+}
+
+label, button {
+    display: block;
+    margin-top: 20px; 
+}
+
+button {
+    width: 200px;
+    margin: 20px auto 0px auto;/*top right bottom left*/
 }

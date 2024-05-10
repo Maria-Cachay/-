@@ -17,14 +17,27 @@
         </header>
         <main>
             <h1>Welcome to our budget calculator</h1>
-            <p>Manage your time wisely with our tips and tricks.</p>
-            <img src="clock.jpg" alt="Clock">
+            <p>Manage your budget wisely with our tips and tricks.</p>
+            <h1>Annual Budget Planner</h1>
+            <form id="budgetForm">
+                <label for="income">Total Yearly Income:</label>
+                <input type="number" id="income" name="income" required>
+        
+                <label for="expenses">Total Yearly Expenses:</label>
+                <input type="number" id="expenses" name="expenses" required>
+        
+                <label for="savingsGoal">Desired Yearly Savings:</label>
+                <input type="number" id="savingsGoal" name="savingsGoal" required>
+        
+                <button type="submit">Calculate Budget</button>
+            </form>
+        
+            <div id="result"></div></p>
         </main>
         <footer>
             <p>Copyright © 2024. All Rights Reserved.</p>
         </footer>
         <script src="taschenrechner.js">
-            
         </script>
     </body>
 </html>
